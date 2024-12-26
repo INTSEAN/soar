@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="../src/components/logo.jpeg" alt="Custom Logo" className="h-8 w-8" />
+              <img src="../components/logo.jpeg" alt="Custom Logo" className="h-8 w-8" />
               <span className="text-2xl font-bold bg-gradient-to-r from-gray-50 to-gray-300 bg-clip-text text-transparent">
                 SOAR Africa
               </span>
