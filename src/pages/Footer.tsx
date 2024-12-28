@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <motion.a
-                href="tel:+17746027563"
+                href="tel:+254721588666"
                 title="Call Us"
                 className="text-gray-50 hover:text-purple-600"
                 whileHover={{ scale: 1.1 }}
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                 <FaPhone />
               </motion.a>
               <motion.a
-                href="https://wa.me/+17746027563"
+                href="https://wa.me/+254721588666"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Chat on WhatsApp"
@@ -120,12 +120,12 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="tel:+17746027563" className="hover:text-purple-600">
+                <a href="tel:+254721588666" className="hover:text-purple-600">
                   Call Us
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/+17746027563" className="hover:text-purple-600">
+                <a href="https://wa.me/+254721588666" className="hover:text-purple-600">
                   Chat With Us
                 </a>
               </li>
@@ -163,24 +163,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-2">Services</h4>
             <ul className="space-y-2">
-              <li>
-                <a
-                  href="#contact"
-                  onClick={scrollToContact}
-                  className="hover:text-purple-600"
-                >
-                  Healthcare Staffing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  onClick={scrollToContact}
-                  className="hover:text-purple-600"
-                >
-                  Temporary Placement
-                </a>
-              </li>
               <li>
                 <a
                   href="#contact"

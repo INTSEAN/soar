@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-1">
-            <NavLink to="/deal-room">Soar Deal Room</NavLink>
+            <NavLink to="/deal-room">Soar Business Mixer</NavLink>
             <NavLink to="/events">Soar Events Institute</NavLink>
             <NavLink to="/arts">Soar Arts Institute</NavLink>
             <NavLink to="/digital">Soar Digital</NavLink>

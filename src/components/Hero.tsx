@@ -21,15 +21,17 @@ const Hero: React.FC = () => {
         <div className="mt-10 flex space-x-4">
           <a
             href="#programs"
-            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-orange-400 bg-white hover:bg-gray-50"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-orange-400 bg-white hover:bg-orange-300 hover:text-white relative overflow-hidden"
           >
-            Explore Programs
+            <span className="absolute inset-0 border-2 border-transparent animate-border"></span>
+            <span className="relative">Explore Programs</span>
           </a>
           <a
-            href="#contact"
-            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-500 hover:bg-purple-600"
+            href="#programs"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-500 hover:bg-slate-200 hover:text-orange-400 relative overflow-hidden"
           >
-            Get Started
+            <span className="absolute inset-0 border-2 border-transparent animate-border"></span>
+            <span className="relative">Get Started</span>
           </a>
         </div>
       </div>
